@@ -4,9 +4,9 @@ import adapter from "@sveltejs/adapter-static";
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
-    paths: {
-      base: '/portfolio',
-    },
+    // paths: {
+    //   base: '/portfolio',
+    // },
     adapter: adapter(),
   },
   preprocess: [
