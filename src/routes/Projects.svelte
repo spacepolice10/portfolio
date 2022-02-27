@@ -21,7 +21,7 @@ import Project from "../components/Project.svelte";
         content={'WordPress used as a fully-functional backend with editor and database.'} 
         tags={['blog', 'svelte', 'wordpress', 'design', 'graphql', 'domain']}
         technologies={['nextjs', 'react', 'nodejs', 'postgres', 'sequelize']}
-        link={'https://github.com/spacepolice10/react-calc'}
+        link={'https://github.com/spacepolice10/blog-svelte'}
     />  
     <Project 
         name={'react-calc'} 
