@@ -1,1 +1,1 @@
-https://spacepolice10.github.io/portfolio/build
+https://spacepolice10.github.io/portfolio/
