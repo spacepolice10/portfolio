@@ -41,7 +41,7 @@ import { onMount } from "svelte";
     </div>
     <div class="flex flex-col gap-5 overflow-hidden box-border">
         <div class="flex justify-center items-center w-20 h-20 m-4">
-            <img width={95} height={95} src={`/static/isometric/${icon}`} alt={`${icon} logo`} />
+            <img width={95} height={95} src={`/isometric/${icon}`} alt={`${icon} logo`} />
         </div>
         <div class="flex flex-col gap-2 m-4">
             <p class="font-bold text-4xl opacity-90 w-56">{description}</p>
