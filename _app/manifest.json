@@ -1,0 +1,93 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-347d1e4a.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/Introduction.svelte",
+      "src/routes/Contacts.svelte",
+      "src/routes/Projects.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-b355a986.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-3a5d15c9.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-875b8b03.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-7dda3e65.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js",
+      "src/routes/Introduction.svelte",
+      "src/routes/Projects.svelte",
+      "src/routes/Contacts.svelte",
+      "_Logo-3d2ee269.js"
+    ]
+  },
+  "src/routes/Introduction.svelte": {
+    "file": "pages/Introduction.svelte-5aeacdf3.js",
+    "src": "src/routes/Introduction.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js",
+      "_Logo-3d2ee269.js"
+    ]
+  },
+  "src/routes/Projects.svelte": {
+    "file": "pages/Projects.svelte-9055b103.js",
+    "src": "src/routes/Projects.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js"
+    ],
+    "css": [
+      "assets/pages/Projects.svelte-6e17a411.css"
+    ]
+  },
+  "src/routes/Contacts.svelte": {
+    "file": "pages/Contacts.svelte-5f0d0394.js",
+    "src": "src/routes/Contacts.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fdb51b2c.js",
+      "_Logo-3d2ee269.js"
+    ]
+  },
+  "_vendor-fdb51b2c.js": {
+    "file": "chunks/vendor-fdb51b2c.js"
+  },
+  "_Logo-3d2ee269.js": {
+    "file": "chunks/Logo-3d2ee269.js",
+    "imports": [
+      "_vendor-fdb51b2c.js"
+    ]
+  }
+}
