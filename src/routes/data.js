@@ -5,6 +5,7 @@ const data = {
             color: 'bg-[#B62DFF]',
             icon: 'shopping-bag.png',
             description: 'Next-based project',
+            descriptionlong: '',
             content: 'Online-shop made using popular React framework, Node and Postgres',
             tags: ['shop', 'cart', 'authorisation', 'filter', 'ORM', 'eCommerce', 'blog'],
             technologies: ['nextjs', 'react', 'nodejs', 'postgres', 'sequelize'],
@@ -55,22 +56,23 @@ const data = {
             color: 'bg-[#FF2900]',
             icon: 'laptop.png',
             description: 'SvelteKit-blog',
-            content: 'WordPress used as a fully-functional backend with editor and database',
+            descriptionlong: '',
+            content: 'WordPress used as a fully-functional backend with editor and database.',
             tags: ['blog', 'svelte', 'wordpress', 'design', 'graphql', 'domain'],
             technologies: ['nextjs', 'react', 'nodejs', 'postgres', 'sequelize'],
             link: 'https://github.com/spacepolice10/blog-svelte',
             gifs: [
                 {
-                    name: 'beautiful cards for any item',
-                    picture: ''
+                    name: 'Beautiful grid-layout and basic animations fully responsive',
+                    picture: '../../static/gifs/blog/gif1.gif'
                 },
                 {
-                    name: 'responsive design',
-                    picture: ''
+                    name: 'Dark and light modes implemented using Tailwind',
+                    picture: '/static/gifs/blog/gif2.gif'
                 },
                 {
-                    name: 'lists of favourite items',
-                    picture: ''
+                    name: 'Transitions made with Svelte-specific methods',
+                    picture: '/static/gifs/blog/gif3.gif'
                 }
             ],
             features: [
@@ -105,6 +107,7 @@ const data = {
             color: 'bg-[#00B8FF]',
             icon: 'calculatir.png',
             description: 'React-based project',
+            descriptionlong: '',
             content: 'Combination of calculator and converter launched as Electron app',
             tags: ['calculator', 'converter', 'electron', 'redux', 'ant design', 'api', 'drag and drop'],
             technologies: ['nextjs', 'react', 'nodejs', 'postgres', 'sequelize'],
