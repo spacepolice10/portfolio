@@ -12,6 +12,8 @@
     import { onMount } from 'svelte';
     import data from '../data';
     import Features from './Features.svelte';
+    import Link from './Link.svelte';
+    import Technologies from './Technologies.svelte';
     export let id
     const info = data.projects.find(x => x.name == id)
 
@@ -37,18 +39,25 @@
         </h1> -->
         <h2 class="text-4xl font-bold text-white z-10">{info.description}</h2>
         <h3 class="text-2xl font-bold text-white z-10">{info.content}</h3>
+        <Link link={info.link} />
     </div>
-    <div bind:this={tagsProperties} id="test">
+    <div class="overflow-hidden h-96 w-full" bind:this={tagsProperties} id="test">
         {#each info.tags as tag, i}
             {#if i % 2 == 0}
-                <p class="backward font-bold text-6xl opacity-50 w-52 -z-10">{tag}</p>
+                <p class="backward font-bold text-2xl opacity-50 w-52 -z-10">{tag}</p>
             {:else}
-                <p class="forward font-bold text-6xl opacity-30 w-52 -z-10">{tag}</p>
+                <p class="forward font-bold text-4xl opacity-30 w-52 -z-10">{tag}</p>
             {/if}
         {/each}
     </div>
     <Features gifs={info.gifs} />
 </div>
+<div class="bg-black">
+    <Technologies features={info.features} />
+    <p class="font-thin opacity-80 text-white text-center">Some features might not be ready yet</p>
+</div>
+
+
 
 
 
@@ -68,7 +77,7 @@
         pointer-events: none;
     }
     @keyframes gliding {
-        from {margin-left: -300%;}
-        to {margin-left: 300%;}
+        from {margin-left: -105%;}
+        to {margin-left: 105%;}
     }
 </style>

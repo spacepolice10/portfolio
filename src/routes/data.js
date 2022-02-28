@@ -12,42 +12,42 @@ const data = {
             link: 'https://github.com/spacepolice10/shop-next',
             gifs: [
                 {
-                    name: 'beautiful cards for any item',
+                    name: 'Beautiful cards for any item',
                     picture: ''
                 },
                 {
-                    name: 'responsive design',
+                    name: 'Responsive design',
                     picture: ''
                 },
                 {
-                    name: 'lists of favourite items',
+                    name: 'Lists of favourite items',
                     picture: ''
                 }
             ],
             features: [
                 {
                     name: 'JWT authorisation',
-                    picture: ''
+                    picture: '/static/features/shop/jwt.svg'
                 },
                 {
-                    name: 'mobile-first design',
-                    picture: ''
+                    name: 'Express server involved',
+                    picture: '/static/features/shop/express.svg'
                 },
                 {
-                    name: 'manipulating data using Sequelize',
-                    picture: ''
+                    name: 'Manipulating data using Sequelize',
+                    picture: '/static/features/shop/sequelize.svg'
                 },
                 {
-                    name: 'fetching data from PostgreSQL',
-                    picture: ''
+                    name: 'Fetching data from PostgreSQL',
+                    picture: '/static/features/shop/postgres.svg'
                 },
                 {
-                    name: 'easy-reconfigurable to any type of eCommerce',
-                    picture: ''
+                    name: 'Next as a frontend framework',
+                    picture: '/static/features/shop/nextjs.svg'
                 },
                 {
-                    name: 'powerful backend',
-                    picture: ''
+                    name: 'Backend with ORM and Node.js',
+                    picture: '/static/features/shop/nodejs.svg'
                 }
             ]
         },
@@ -71,34 +71,26 @@ const data = {
                     picture: '/static/gifs/blog/gif2.gif'
                 },
                 {
-                    name: 'Transitions made with Svelte-specific methods',
+                    name: 'Transitions made with Svelte-specific methods and tools',
                     picture: '/static/gifs/blog/gif3.gif'
                 }
             ],
             features: [
                 {
-                    name: 'JWT authorisation',
-                    picture: ''
+                    name: 'Wordpress used as a backend',
+                    picture: '/static/features/blog/wordpress.svg'
                 },
                 {
-                    name: 'mobile-first design',
-                    picture: ''
+                    name: 'GraphQL used to fetch data',
+                    picture: '/static/features/blog/graphql.svg'
                 },
                 {
-                    name: 'manipulating data using Sequelize',
-                    picture: ''
+                    name: 'Tailwind used instead of traditional CSS',
+                    picture: '/static/features/blog/tailwind.svg'
                 },
                 {
-                    name: 'fetching data from PostgreSQL',
-                    picture: ''
-                },
-                {
-                    name: 'easy-reconfigurable to any type of eCommerce',
-                    picture: ''
-                },
-                {
-                    name: 'powerful backend',
-                    picture: ''
+                    name: 'Built with static adapter',
+                    picture: '/static/features/blog/svelte.svg'
                 }
             ]
         },
@@ -114,42 +106,42 @@ const data = {
             link: 'https://github.com/spacepolice10/react-calc',
             gifs: [
                 {
-                    name: 'beautiful cards for any item',
+                    name: 'Beautiful design materialised because of Ant Design components',
                     picture: ''
                 },
                 {
-                    name: 'responsive design',
+                    name: 'Simplest way to evaluate something quickly using keyboard or screen',
                     picture: ''
                 },
                 {
-                    name: 'lists of favourite items',
+                    name: 'Quick conversion of differen metric in parallel',
                     picture: ''
                 }
             ],
             features: [
                 {
-                    name: 'JWT authorisation',
-                    picture: ''
+                    name: 'React hooks used instead of classes',
+                    picture: '/static/features/calc/react.svg'
                 },
                 {
-                    name: 'mobile-first design',
-                    picture: ''
+                    name: 'Redux responsible for data storage',
+                    picture: '/static/features/calc/redux.svg'
                 },
                 {
-                    name: 'manipulating data using Sequelize',
-                    picture: ''
+                    name: 'Currency conversion API used',
+                    picture: '/static/features/calc/dollar.svg'
                 },
                 {
-                    name: 'fetching data from PostgreSQL',
-                    picture: ''
+                    name: 'Vite used as a bundler',
+                    picture: '/static/features/calc/vite.svg'
                 },
                 {
-                    name: 'easy-reconfigurable to any type of eCommerce',
-                    picture: ''
+                    name: 'React router is set up',
+                    picture: '/static/features/calc/router.svg'
                 },
                 {
-                    name: 'powerful backend',
-                    picture: ''
+                    name: 'Electron-based desktop app',
+                    picture: '/static/features/calc/electron.svg'
                 }
             ]
         },
