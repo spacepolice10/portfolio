@@ -110,7 +110,7 @@ const data = {
                     picture: '/portfolio/gifs/calc/gif1.gif'
                 },
                 {
-                    name: 'Simplest way to evaluate something quickly',
+                    name: 'Drag & Drop with redux-toolkit',
                     picture: '/portfolio/gifs/calc/gif2.gif'
                 },
                 {
