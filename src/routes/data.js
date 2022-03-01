@@ -97,7 +97,7 @@ const data = {
         {
             name: 'react-calc',
             color: 'bg-[#00B8FF]',
-            icon: 'calculatir.png',
+            icon: 'calculator.png',
             description: 'React-based project',
             descriptionlong: '',
             content: 'Combination of calculator and converter launched as Electron app',
