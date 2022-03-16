@@ -10,6 +10,7 @@ const data = {
             tags: ['shop', 'cart', 'authorisation', 'filter', 'ORM', 'eCommerce', 'blog'],
             technologies: ['nextjs', 'react', 'nodejs', 'postgres', 'sequelize'],
             link: 'https://github.com/spacepolice10/shop-next',
+            deploy: 'null',
             gifs: [
                 {
                     name: 'Responsive design',
@@ -61,6 +62,7 @@ const data = {
             tags: ['blog', 'svelte', 'wordpress', 'design', 'graphql', 'domain'],
             technologies: ['nextjs', 'react', 'nodejs', 'postgres', 'sequelize'],
             link: 'https://github.com/spacepolice10/blog-svelte',
+            deploy: 'null',
             gifs: [
                 {
                     name: 'Beautiful grid-layout and basic animations fully responsive',
@@ -104,6 +106,7 @@ const data = {
             tags: ['calculator', 'converter', 'electron', 'redux', 'ant design', 'api', 'drag and drop'],
             technologies: ['nextjs', 'react', 'nodejs', 'postgres', 'sequelize'],
             link: 'https://github.com/spacepolice10/react-calc',
+            deploy: 'https://kalky.netlify.app',
             gifs: [
                 {
                     name: 'Beautiful Ant Design components used',
@@ -143,6 +146,50 @@ const data = {
                     name: 'Electron-based desktop app',
                     picture: '/portfolio/features/calc/electron.svg'
                 }
+            ]
+        },
+        {
+            name: 'vue-kanban',
+            color: 'bg-[#008D56]',
+            icon: 'interface.png',
+            description: 'Vue-based project',
+            descriptionlong: '',
+            content: 'Trello-like kanban board based on Supabase',
+            tags: ['vue', 'trello', 'drag', 'drop', 'vue router', 'headless ui', 'heroicons', 'tailwind plugins'],
+            technologies: ['vue', 'tailwind', 'supabase', 'vite', 'vue router'],
+            link: 'https://github.com/spacepolice10/taskchat-vue',
+            deploy: 'null',
+            gifs: [
+                {
+                    name: 'Quick task-adding interface',
+                    picture: '/portfolio/gifs/kanban/gif1.gif'
+                },
+                {
+                    name: 'Drag & Drop without third-party libraries',
+                    picture: '/portfolio/gifs/kanban/gif2.gif'
+                },
+                {
+                    name: 'All the mechanisms of data manipulating',
+                    picture: '/portfolio/gifs/kanban/gif3.gif'
+                }
+            ],
+            features: [
+                {
+                    name: 'Vue 3 with template syntax used',
+                    picture: '/portfolio/features/kanban/vue.svg'
+                },
+                {
+                    name: 'Supabase involved',
+                    picture: '/portfolio/features/kanban/supabase.svg'
+                },
+                {
+                    name: 'Vite used as a bundler',
+                    picture: '/portfolio/features/kanban/vite.svg'
+                },
+                {
+                    name: 'Tailwind with plugins and Headless UI utilised',
+                    picture: '/portfolio/features/kanban/tailwind.svg'
+                },
             ]
         },
     ]

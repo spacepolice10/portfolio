@@ -35,14 +35,17 @@
 <div
   class="{info.color} flex flex-col justify-center items-center min-h-screen overflow-hidden box-border"
 >
-  <div transition:fly={{ y: 60, duration: 800 }}>
+  <div class="w-full" transition:fly={{ y: 60, duration: 800 }}>
     <div class="flex flex-col justify-start mt-5 mx-5">
       <!-- <h1 class="text-6xl font-bold text-white z-10">
                 {info.name}
             </h1> -->
       <h2 class="text-4xl font-bold text-white z-10">{info.description}</h2>
       <h3 class="text-2xl font-bold text-white z-10">{info.content}</h3>
-      <Link link={info.link} />
+      <div class="flex gap-4">
+        <Link site={"github"} link={info.link} />
+        <Link site={"deploy"} link={info.deploy} />
+      </div>
     </div>
     <div
       class="overflow-hidden h-96 w-full"

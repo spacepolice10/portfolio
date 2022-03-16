@@ -27,15 +27,7 @@
 </script>
 
 <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-<div
-  on:mouseover={() => {
-    showTechnologies = true;
-  }}
-  on:mouseout={() => {
-    showTechnologies = false;
-  }}
-  class="{color} text-white box-border overflow-hidden h-screen lg:h-auto"
->
+<div class="{color} text-white box-border overflow-hidden h-screen">
   <a href={`./project/${name}`}>
     <div class="flex justify-between w-full">
       <h1 class="font-bold text-2xl m-5">

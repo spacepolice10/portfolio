@@ -31,6 +31,8 @@
           <li><Logo svgPath={"nodejs"} /></li>
           <li><Logo svgPath={"wordpress"} /></li>
           <li><Logo svgPath={"vite"} /></li>
+          <li><Logo svgPath={"typescript"} /></li>
+          <li><Logo svgPath={"vue"} /></li>
         </ul>
         <i class="text-gray-300 text-xs">...and much more to come.</i>
       </div>
